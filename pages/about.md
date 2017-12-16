@@ -1,18 +1,17 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 搬砖打杂
+keywords: Zhiqiang Wu, 伍志强
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是伍志强，搬搬砖，打打杂。
 
-仰慕「优雅编码的艺术」。
+写优雅的代码,过自己的生活。
 
-坚信熟能生巧，努力改变人生。
 
 ## 联系
 
