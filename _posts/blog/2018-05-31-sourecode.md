@@ -369,7 +369,7 @@ keywords: Eureka, Eureka源码学习
 
 ### 3.3 Eureka Server实现细节
 
-看来上面部分代码，再看下具体的时序图：
+看了上面部分代码，再看下具体的时序图：
 
 #### 3.3.1 Register
 
