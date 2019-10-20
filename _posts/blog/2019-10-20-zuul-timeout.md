@@ -45,4 +45,5 @@ keywords: zuul timeout, SpringCloud
  	}
  ````
  通过上面源码可以看出如果，配置Hystrix超时时间就以Hystrix超时时间为准，如果没配置则以ribbon
- 配置的超时时间为准，记得这个就一切ok,不需要去配啥ribbonReadTimeout，ribbonConnectTimeout。
+ 配置的超时时间为准，记得这个就一切ok,不需要去配啥ribbonReadTimeout，ribbonConnectTimeout
+ ，通常情况下直接配Hystrix超时时间就成，简单明了。
