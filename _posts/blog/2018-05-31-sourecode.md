@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Eureka源码学习
-categories: [springcloud]
+categories: [Springcloud]
 description: Eureka
 keywords: Eureka, Eureka源码学习
 ---
