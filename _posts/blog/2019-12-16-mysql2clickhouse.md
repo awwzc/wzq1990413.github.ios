@@ -1,7 +1,7 @@
 ---
 layout: post
 title: canal同步mysql数据到clickhouse
-categories: [技术]
+categories: [mysql,clickhouse,OLAP]
 description: mysql同步数据到clickhouse
 keywords: mysql sync, clickhouse
 ---
@@ -245,7 +245,6 @@ sh  bin/stop.sh
 
 下载页面：[下载地址](https://github.com/wzq1990413/canal/releases)
 
-x
 
 ```
 #阿里官网的canal-adapter,rdb同步目前不支持clickhouse update,delete,自己做了些修改让其支持这两个操作
