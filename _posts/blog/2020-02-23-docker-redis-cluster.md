@@ -13,6 +13,7 @@ keywords: docker redis-cluster, docker搭建redis集群
 2. docker 版本号 19.03.
 3. docker compose 版本号 1.25.4.
 4. 本次不考虑设置redis集群密码
+5. redis版本5.0.7
 ### 安装docker与docker-compose
 
 #### 1.安装docker
