@@ -19,6 +19,7 @@ keywords: virtualbox， 固定ip
 ![bg]({{ site.url }}/images/posts/virtualbox/hostonly.png)
 
 3. 最终虚拟机固定ip为网卡enp0s8:192.168.99.103
+
 ```
 
 根据主机网卡vboxnet0，找到虚拟机网卡enp0s8
