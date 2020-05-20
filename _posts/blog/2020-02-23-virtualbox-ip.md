@@ -18,5 +18,15 @@ keywords: virtualbox， 固定ip
 2. 给虚拟添加一个host-only连接方式的网卡用于跟主机，其他虚拟机互联，此网卡会分配固定ip
 ![bg]({{ site.url }}/images/posts/virtualbox/hostonly.png)
 
+3. 最终虚拟机固定ip为网卡enp0s8:192.168.99.103
+```
 
-3. virtualbox 常用网络模式解释和配置，参考[地址](https://cizixs.com/2017/03/09/virtualbox-network-mode-explained/)
+根据主机网卡vboxnet0，找到虚拟机网卡enp0s8
+vboxnet0: flags=8943<UP,BROADCAST,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	ether 0a:00:27:00:00:00
+	inet 192.168.99.1 netmask 0xffffff00 broadcast 192.168.99.255
+
+```
+![gdip]({{ site.url }}/images/posts/virtualbox/gdip.png)
+
+4. virtualbox 常用网络模式解释和配置，参考[地址](https://cizixs.com/2017/03/09/virtualbox-network-mode-explained/)
