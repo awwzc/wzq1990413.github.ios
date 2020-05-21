@@ -27,6 +27,32 @@ vboxnet0: flags=8943<UP,BROADCAST,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
 	ether 0a:00:27:00:00:00
 	inet 192.168.99.1 netmask 0xffffff00 broadcast 192.168.99.255
 
+#编辑网卡配置文件
+vi /etc/sysconfig/network-scripts/ifcfg-enp0s8
+
+TYPE=Ethernet
+BOOTPROTO=static //dhcp改成static
+DEFROUTE=yes
+PEERDNS=yes
+PEERROUTES=yes
+IPV4_FAILURE_FATAL=no
+IPV6INIT=yes
+IPV6_AUTOCONF=yes
+IPV6_DEFROUTE=yes
+IPV6_PEERDNS=yes
+IPV6_PEERROUTES=yes
+IPV6_FAILURE_FATAL=no
+NAME=enp0s8
+UUID=4F51C20A-93F7-406E-A6D2-FBA3B9E37CE0
+DEVICE=enp0s8
+ONBOOT=yes
+IPADDR=192.168.99.103  //新增  固定ip
+NETMASK=255.255.255.0  //新增  掩码
+GATEWAY=192.168.99.255 //新增  网关
+
+#重启网络
+systemctl restart network
+
 ```
 ![gdip]({{ site.url }}/images/posts/virtualbox/gdip.png)
 
